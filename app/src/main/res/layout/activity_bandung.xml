@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kyky.home.Bandung">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:id="@+id/linearLayout2">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:srcCompat="@drawable/bandug"
+            android:scaleType="fitXY"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/seblak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="66dp"
+        android:fontFamily="serif"
+        android:text="Seblak"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Daftar Makanan Khas Bandung"
+        android:textColor="@android:color/background_dark" />
+
+
+    <TextView
+        android:id="@+id/lotek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/seblak"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:text="Lotek"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:fontFamily="serif"
+        android:text="Kota Bandung merupakan kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut. Kota ini terletak 140 km sebelah tenggara Jakarta, dan merupakan kota terbesar di wilayah Pulau Jawa bagian selatan."
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
+
+
+
+
+</RelativeLayout>
